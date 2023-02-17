@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #273361;
+}
+.full-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: 28px;
+}
+.container {
+    width: 50%;
+    background-color: #8e9aca4f;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number {
+    margin: 50px 0 0 0;
+    background-color: #738beb4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    border-radius: 8px;
+}
+#number-counter {
+    font-size: 20vh
+}
+button {
+    margin: 30px;
+    border-radius: 6px;
+    border: 0 solid;
+}
+.btn-add {
+    padding: 20px 40px;
+    font-size: 12vh;
+    color: #273361;
+    background-color: #738bebb1;
+}
+.btn-substract {
+    padding: 20px 50px;
+    font-size: 12vh;
+    color: #273361;
+    background-color: #738bebb1;
+}
+.btn-reset {
+    font-size: 10vh;
+    padding: 14px;
+    color: #273361;
+    background-color: #738bebb1;
+}
+/* #75AD3D - green color
+   #AD1900 - red color */
