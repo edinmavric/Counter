@@ -36,6 +36,7 @@ buttonMultiply.addEventListener("click", () => {
   if (checkIfNaN(num)) return;
   counter *= num;
   checkDecimal();
+  colorChanger();
 });
 
 buttonDivide.addEventListener("click", () => {
@@ -43,18 +44,19 @@ buttonDivide.addEventListener("click", () => {
   if (checkIfNaN(num)) return;
   counter /= num;
   checkDecimal();
+  colorChanger();
 });
 
 buttonAdd.addEventListener("click", () => {
   counter++;
-  colorChanger();
   checkDecimal();
+  colorChanger();
 });
 
 buttonSubstract.addEventListener("click", () => {
   counter--;
-  colorChanger();
   checkDecimal();
+  colorChanger();
 });
 
 buttonReset.addEventListener("click", () => {
