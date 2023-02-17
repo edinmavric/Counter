@@ -17,7 +17,7 @@ body {
     margin-top: 28px;
 }
 .container {
-    width: 50%;
+    width: 55%;
     background-color: #8e9aca4f;
     height: 110vh;
     display: flex;
@@ -43,18 +43,14 @@ button {
     border-radius: 6px;
     border: 0 solid;
 }
-.btn-add {
-    padding: 20px 40px;
+.btn-add, .btn-substract, .btn-multiply, .btn-divide {
+    padding: 20px 0;
+    width: 130px;
     font-size: 12vh;
     color: #273361;
     background-color: #738bebb1;
 }
-.btn-substract {
-    padding: 20px 50px;
-    font-size: 12vh;
-    color: #273361;
-    background-color: #738bebb1;
-}
+
 .btn-reset {
     font-size: 10vh;
     padding: 14px;
